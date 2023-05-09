@@ -1,4 +1,5 @@
 import HomeScreen from '../src/components/screens/HomeScreen';
+import Head from 'next/head';
 
 export default HomeScreen;
 

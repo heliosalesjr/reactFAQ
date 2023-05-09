@@ -4,7 +4,7 @@ import Link from '../../Link/index.js'
 import { theme } from '../../../theme/theme';
 import { Image, Box, Text, Icon, Input, Button } from '../../../theme/components';
 
-const LOGO_ALURA_URL = '/images/logo_faq_yellow.svg';
+const LOGO_FAQ_URL = '/images/logo_faq_yellow.svg';
 const SIDE_IMAGE_URL = '/images/banner_bg_80.png'
 
 function SideImage() {
@@ -86,7 +86,7 @@ function SideImage() {
               },
             }}
             src={SIDE_IMAGE_URL}
-            alt="Treinamento com a roberta arcoverde no alura cases, falando sobre o stackoverflow"
+            alt="Imagem referente ao processo de FAQ"
           />
         </Box>
       </Box>
@@ -98,7 +98,7 @@ export default function HomeScreen() {
   return (
     <Box>
       <Head>
-        <title>Home - Alura Cases Campanha</title>
+        <title>Home - Helio Cases Campanha</title>
       </Head>
       <Box
         as="main"
@@ -153,8 +153,8 @@ export default function HomeScreen() {
                     width: "auto",
                     height: theme.space.x11,
                   }}
-                  src={LOGO_ALURA_URL}
-                  alt="Logo Alura"
+                  src={LOGO_FAQ_URL}
+                  alt="Logo FAQ"
                 />
               </Box>
               <Box
